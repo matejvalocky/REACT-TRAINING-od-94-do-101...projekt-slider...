@@ -1,4 +1,4 @@
-//95. React - Projekt slider - ukážka
+//React 96 - Projekt slider - připravujeme data a obrázky
 
 
 
