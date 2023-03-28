@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+//React 94 - Práca s ikonkami
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import { Fa500Px } from "react-icons/fa";
+import { DiCompass } from "react-icons/di";
 
-export default App;
+const App = () => {
+  return <div>
+            <h1>Naše první komponenta</h1>
+            <Fa500Px className="my-icon"/>
+            <DiCompass  className="my-icon"/>
+        </div>
+  
+  
+  }
+  export default App
+  
