@@ -1,4 +1,4 @@
-//React 97 - Projekt slider - zobrazujeme filmy
+//React 98 - Projekt slider - preklikáváme filmy
 
 import OneMovieSlider from "./components/OneMovieSlider"
 

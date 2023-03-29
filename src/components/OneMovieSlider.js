@@ -9,6 +9,20 @@ const OneMovieSlider = () => {
     const [index, setIndex] = useState(0)
     const {image, title, description} = data[index]
 
+    const nextMovie = () => {
+        setIndex( (index) => {
+            const newIndex = index + 1
+            return newIndex
+        })
+    }
+
+    const previousMovie = () => {
+        setIndex((index) =>{
+            const newIndex = index - 1
+            return newIndex
+        })
+    }
+
 
 
 
@@ -16,10 +30,10 @@ const OneMovieSlider = () => {
                 <img src={image} alt="" />
                 <h2>{title}</h2>
                 <p>{description}</p>
-                <button>
+                <button onClick={previousMovie}>
                     <FaArrowCircleLeft />
                 </button>
-                <button>
+                <button onClick={nextMovie}>
                     <FaArrowCircleRight />  
                 </button>
                 
