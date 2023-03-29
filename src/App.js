@@ -1,4 +1,4 @@
-//React 100 - Projekt slider - štylovanie aplikácie
+//React 101 - Projekt slider - rozšiřování slideru o další filmy
 
 import OneMovieSlider from "./components/OneMovieSlider"
 

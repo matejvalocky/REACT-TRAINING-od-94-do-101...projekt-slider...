@@ -19,3 +19,11 @@
     cursor: pointer;
 
 }
+
+.one-movie h2{
+    height: 35px;
+}
+
+.one-movie p {
+    height: 80px;
+}
