@@ -36,7 +36,7 @@ const OneMovieSlider = () => {
 
 
 
-    return <div>
+    return <div className="one-movie">
                 <img src={image} alt="" />
                 <h2>{title}</h2>
                 <p>{description}</p>

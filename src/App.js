@@ -1,9 +1,9 @@
-//React 99 - Projekt slider - filmy sa menia stále dookola
+//React 100 - Projekt slider - štylovanie aplikácie
 
 import OneMovieSlider from "./components/OneMovieSlider"
 
 const App = () => {
-  return <div>
+  return <div className="slider">
            <OneMovieSlider />
         </div>
   
