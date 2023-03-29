@@ -1,4 +1,4 @@
-//React 98 - Projekt slider - preklikáváme filmy
+//React 99 - Projekt slider - filmy sa menia stále dookola
 
 import OneMovieSlider from "./components/OneMovieSlider"
 

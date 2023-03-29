@@ -9,17 +9,27 @@ const OneMovieSlider = () => {
     const [index, setIndex] = useState(0)
     const {image, title, description} = data[index]
 
+    const checkMovieNummber = (movieIndex) => {
+        if ( movieIndex < 0) {
+            return data.length - 1
+        } else if (movieIndex > data.length -1) {    
+            return 0
+        } else {
+            return movieIndex
+        }
+    }
+
     const nextMovie = () => {
         setIndex( (index) => {
             const newIndex = index + 1
-            return newIndex
+            return checkMovieNummber(newIndex)
         })
     }
 
     const previousMovie = () => {
         setIndex((index) =>{
             const newIndex = index - 1
-            return newIndex
+            return checkMovieNummber(newIndex)
         })
     }
 
